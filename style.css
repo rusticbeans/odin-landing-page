@@ -1,0 +1,29 @@
+header,
+.left-links,
+.right-links {
+   display: flex;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   justify-content: space-between;
+   background-color: #1F2937;
+   font-family: Roboto, sans-serif;
+   font-size: 24px;
+   color: #F9FAF8;
+   padding: 24px 72px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.right-links {
+   gap: 24px;
+}
